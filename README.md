@@ -19,11 +19,17 @@ When you run the main function, the code asks some parameters. You can start wit
 The project contains 2 test files, fell free to run the tests and play with them as well :)
 
 
-Logic about the implementation:
+--------------------------------------
+<b>Logic about the implementation:</b>
 
 1 - The "Cell" class represents a cell of the game. It is either dead or alive.
-2 - The "Grid" class is used to represent the whole game. It has length and width, and a set of cells
-3 - The program initiates a grid with an approximate proportion of cells alive, randomly spread on the grid, the others are dead
-4 - For a generation, the program checks which cell has to change its status (to be killed or resurrected), according to the rules of the game.
+
+2 - The "Grid" class is used to represent the whole game. It has a length and a width, and a set of cells.
+
+3 - The program initiates a grid with an approximate proportion of cells alive, randomly spread on the grid, the others are dead.
+
+4 - For a generation, the program checks which cell has to change its status (to be killed or resurrected), according to the rules.
+
 5 - The program kills or resurrects the given cells on the grid, so we have the next generation, and so on.
+
 6 - A plot displays the generations when the program is launched.
